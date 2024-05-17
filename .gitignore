@@ -1,0 +1,6 @@
+Data/1.\ Origin\ Dataset/balanced_UNSW-NB15.csv
+Data/1.\ Origin\ Dataset/unbalanced_UNSW-NB15.csv
+Data/2.\ GAN_Generated_Dataset/*
+Data/2.\ SMOTE_Generated_Dataset/*
+Data/3.\ GAN_Augmented\ Dataset/*
+Data/4.\ Secured\ Dataset/*
