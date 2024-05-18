@@ -1,7 +1,10 @@
 # GAN-UNSW-NB15-Dataset
 Compartion of Models(SMOTE, GAN) for Data Augmentation with UNSW-NB15 Dataset
 - <b>Proposed Model</b>: GAN Data Augmentation + Security-related Feature elimination
-- <b>Compare Model</b>: 1. Data Augmentation x 2. SMOTE 3.GAN
+- <b>Compare Model</b>:
+  1. Data Augmentation x
+  2. SMOTE Data Augmentation
+  3. GAN Data Augmentation
 
 # About Dataset
 <b> UNSW-NB15 </b>
