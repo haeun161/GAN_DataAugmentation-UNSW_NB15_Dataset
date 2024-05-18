@@ -10,8 +10,7 @@ The dataset contains raw network packets. The number of records in the training 
 <b>Link</b>: https://paperswithcode.com/dataset/unsw-nb15
 
 <b> Train set & Test set </b>
-![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/223f5783-e7bd-4606-b20a-12ffc78c474a)
-
+![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/1ad7d420-3261-4579-9b00-6177a1ee85c7)
 * In this experiment, we used Trainset for Data Augmentation
 
 # Backgroud (Data Analysis -> Proposed Solution)
