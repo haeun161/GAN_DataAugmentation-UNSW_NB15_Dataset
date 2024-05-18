@@ -1,7 +1,7 @@
 # GAN-UNSW-NB15-Dataset
 Compartion of Models(SMOTE, GAN) for Data Augmentation with UNSW-NB15 Dataset
-<b>Proposed Model</b>: GAN Data Augmentation + Security-related Feature elimination
-<b>Compare Model</b>: 1. Data Augmentation x 2. SMOTE 3.GAN
+- <b>Proposed Model</b>: GAN Data Augmentation + Security-related Feature elimination
+- <b>Compare Model</b>: 1. Data Augmentation x 2. SMOTE 3.GAN
 
 # About Dataset
 <b> UNSW-NB15 </b>
@@ -18,20 +18,20 @@ The dataset contains raw network packets. The number of records in the training 
 In this dataset, the number of Attack Category datasets (Backdoor, Analysis, ShellCode, Worms) is significantly smaller than others. When the number of instances for each category is highly imbalanced during classification, several problems can arise.
 
 Such as..
-<b> 1. Model Bias: </b>  The model may become biased towards the majority class, leading to poor performance on minority classes.
-<b> 2. Poor Generalization: </b>  The model might not learn the characteristics of the minority classes well, resulting in poor generalization when making predictions on new data.
-<b> 3. Skewed Metrics: </b> Evaluation metrics such as accuracy may be misleading, as a high accuracy can be achieved by simply predicting the majority class.
-<b> 4. Overfitting: </b> The model may overfit the majority class data, capturing noise instead of the underlying patterns.
+- <b> 1. Model Bias: </b>  The model may become biased towards the majority class, leading to poor performance on minority classes.
+- <b> 2. Poor Generalization: </b>  The model might not learn the characteristics of the minority classes well, resulting in poor generalization when making predictions on new data.
+- <b> 3. Skewed Metrics: </b> Evaluation metrics such as accuracy may be misleading, as a high accuracy can be achieved by simply predicting the majority class.
+- <b> 4. Overfitting: </b> The model may overfit the majority class data, capturing noise instead of the underlying patterns.
 
 <b> (2) Proposed Solution </b>
-1) Make balanced data by augmenting data
-2) To enhance security, remove some security-related features during training
+- 1) Make balanced data by augmenting data
+- 2) To enhance security, remove some security-related features during training
 
 # Model Selction
 *Notation: the linked Notion Page is written in Korean.
-1. Research on Gernerative AI for Data Augmentation -> select Gernerative AI Model
+- 1. Research on Gernerative AI for Data Augmentation -> select Gernerative AI Model
    https://button-breeze-d77.notion.site/AI-Generative-AI-data-augmentation-c6391a3b082f403591e913ae3cd94661?pvs=4
-2. Related Work
+- 2. Related Work
    - Network Intrusion Detection Based on Supervised Adversarial Variational Auto-Encoder With Regularization
 
 
