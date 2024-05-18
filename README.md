@@ -45,13 +45,13 @@ Such as..
  - Test Accuracy: [85.42678571428571, 99.995290349927]
 
 <b> 2. GAN & SMOTE Data Augmentation o -> Train </b>
-- <b> Evaluation Metric: Accuracy, Memory Usage, Elapsed Time </b>
-![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/12a5f2f2-4d8e-4de3-a7ac-509dfa0ca04b)
+- <b> Evaluation Metric</b>: Accuracy, Memory Usage, Elapsed Time 
+![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/bd0c58ea-ab87-4cc0-96ef-a986b8776883)
 
   * Working on solving Overfitting Problem
 
 <b> 3. Security-related Feature elimination -> GAN & SMOTE Data Augmentation o -> Train </b>
-- <b> Evaluation Metric: Accuracy, Memory Usage, Elapsed Time </b>
+- <b> Evaluation Metric</b>: Accuracy, Memory Usage, Elapsed Time 
   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/6e3b7ffe-c6cb-4417-8cef-748f3f54023e)
 
   * Working on solving Overfitting Problem
