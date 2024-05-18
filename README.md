@@ -10,7 +10,8 @@ The dataset contains raw network packets. The number of records in the training 
 <b>Link</b>: https://paperswithcode.com/dataset/unsw-nb15
 
 <b> Train set & Test set </b>
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/557c1bc5-e188-43e0-82cd-ae5045ab5540/5dbbe20b-1c93-4fe1-8fb2-9953c4e102e2/Untitled.png)
+![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/223f5783-e7bd-4606-b20a-12ffc78c474a)
+
 * In this experiment, we used Trainset for Data Augmentation
 
 # Backgroud (Data Analysis -> Proposed Solution)
@@ -24,14 +25,14 @@ Such as..
 - <b> 4. Overfitting: </b> The model may overfit the majority class data, capturing noise instead of the underlying patterns.
 
 <b> (2) Proposed Solution </b>
-- 1) Make balanced data by augmenting data
-- 2) To enhance security, remove some security-related features during training
+ 1) Make balanced data by augmenting data
+ 2) To enhance security, remove some security-related features during training
 
 # Model Selction
 *Notation: the linked Notion Page is written in Korean.
-- 1. Research on Gernerative AI for Data Augmentation -> select Gernerative AI Model
+1. Research on Gernerative AI for Data Augmentation -> select Gernerative AI Model
    https://button-breeze-d77.notion.site/AI-Generative-AI-data-augmentation-c6391a3b082f403591e913ae3cd94661?pvs=4
-- 2. Related Work
+2. Related Work
    - Network Intrusion Detection Based on Supervised Adversarial Variational Auto-Encoder With Regularization
 
 
@@ -44,21 +45,21 @@ Such as..
  - Test Accuracy: [85.42678571428571, 99.995290349927]
 
 <b> 2. GAN & SMOTE Data Augmentation o -> Train </b>
-   <b> Evaluation Metric: Accuracy </b>
+- <b> Evaluation Metric: Accuracy </b>
    ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/e959677f-f4ac-4631-9f7f-2ee750000925)
-   - need to solve Overfitting Problem
-   <b> Evaluation Metric: Memory Usage </b>
+  * need to solve Overfitting Problem
+- <b> Evaluation Metric: Memory Usage </b>
    ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/4e4d061d-8356-424f-9b1c-ef9f8ceffae8)
-   <b> Evaluation Metric: Elapsed Time </b>
+- <b> Evaluation Metric: Elapsed Time </b>
   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/3282fefd-727a-4b62-9cd6-02c32ae4d17e)
 
 
 <b> 3. Security-related Feature elimination -> GAN & SMOTE Data Augmentation o -> Train </b>
-   <b> Evaluation Metric: Accuracy </b>
-   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/5a270f33-6fcd-4a2c-a5a6-031008e0177f)
-   <b> Evaluation Metric: Memory Usage </b>
+- <b> Evaluation Metric: Accuracy </b>
+   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/e6701818-4320-4d35-b36b-85e12d1310cd)
+- <b> Evaluation Metric: Memory Usage </b>
    ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/1a0290b7-8f64-496e-977a-8229888398c3)
-   <b> Evaluation Metric: Elapsed Time </b>
+- <b> Evaluation Metric: Elapsed Time </b>
    ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/6728676d-cef6-44f3-8bd1-f72ca1f9931c)
 
 
