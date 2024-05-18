@@ -31,7 +31,7 @@ Such as..
 # Model Selction
 *Notation: the linked Notion Page is written in Korean.
 1. Research on Gernerative AI for Data Augmentation -> select Gernerative AI Model
-   https://button-breeze-d77.notion.site/AI-Generative-AI-data-augmentation-c6391a3b082f403591e913ae3cd94661?pvs=4
+   - https://button-breeze-d77.notion.site/AI-Generative-AI-data-augmentation-c6391a3b082f403591e913ae3cd94661?pvs=4
 2. Related Work
    - Network Intrusion Detection Based on Supervised Adversarial Variational Auto-Encoder With Regularization
 
@@ -45,22 +45,16 @@ Such as..
  - Test Accuracy: [85.42678571428571, 99.995290349927]
 
 <b> 2. GAN & SMOTE Data Augmentation o -> Train </b>
-- <b> Evaluation Metric: Accuracy </b>
-   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/e959677f-f4ac-4631-9f7f-2ee750000925)
-  * need to solve Overfitting Problem
-- <b> Evaluation Metric: Memory Usage </b>
-   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/4e4d061d-8356-424f-9b1c-ef9f8ceffae8)
-- <b> Evaluation Metric: Elapsed Time </b>
-  ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/3282fefd-727a-4b62-9cd6-02c32ae4d17e)
+- <b> Evaluation Metric: Accuracy, Memory Usage, Elapsed Time </b>
+![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/12a5f2f2-4d8e-4de3-a7ac-509dfa0ca04b)
 
+  * Working on solving Overfitting Problem
 
 <b> 3. Security-related Feature elimination -> GAN & SMOTE Data Augmentation o -> Train </b>
-- <b> Evaluation Metric: Accuracy </b>
-   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/e6701818-4320-4d35-b36b-85e12d1310cd)
-- <b> Evaluation Metric: Memory Usage </b>
-   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/1a0290b7-8f64-496e-977a-8229888398c3)
-- <b> Evaluation Metric: Elapsed Time </b>
-   ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/6728676d-cef6-44f3-8bd1-f72ca1f9931c)
+- <b> Evaluation Metric: Accuracy, Memory Usage, Elapsed Time </b>
+  ![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/6e3b7ffe-c6cb-4417-8cef-748f3f54023e)
+
+  * Working on solving Overfitting Problem
 
 
 
