@@ -38,8 +38,9 @@ Such as..
 
 # Experiments and analysis
 <b> 1. Data Augmentation x -> Train </b>
-   Evaluation Metric: Accuracy
-![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/690edcf9-4a3b-43f8-a46c-73ec469ad108)
+ - <b> Evaluation Metric</b>: Accuracy
+![image](https://github.com/haeun161/GAN-UNSW-NB15-Dataset/assets/80445078/b4d16d6c-cd9d-44f9-bc0e-1ede91da06ad)
+
  - Data: ['SMOTE oversampled Data', 'GAN oversampled Data']
  - Training Accuracy: [99.9045918367347, 100.0]
  - Test Accuracy: [85.42678571428571, 99.995290349927]
